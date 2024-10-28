@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+}
+.div-buttons{
+    margin-top: 2rem;
+}
+
+.lap-btn{
+    margin-top: 1rem;
+}
+.list-group{
+    margin-top: 1rem;
+}

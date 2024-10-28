@@ -46,7 +46,7 @@ function lap(){
     ${String(hours).padStart(2,0)}:
     ${String(min).padStart(2,0)}:
     ${String(sec).padStart(2,0)}:
-    ${String(millisec).padStart(2,0)}
+    ${String(Math.floor(millisec / 10)).padStart(2,0)}
     `
     let lapele=document.createElement('li')
     lapele.classList.add('list-group-item')
@@ -77,7 +77,7 @@ function display(){
     ${String(hours).padStart(2,0)}:
     ${String(min).padStart(2,0)}:
     ${String(sec).padStart(2,0)}:
-    ${String(millisec).padStart(2,0)}
+    ${String(Math.floor(millisec / 10)).padStart(2,0)}
 
     `
 
